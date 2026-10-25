@@ -4,7 +4,7 @@
 
 ## 下载
 
-**完整数据包（约 2.1 GB）：DOWNLOAD_LINK_PLACEHOLDER**
+**完整数据包（约 2.1 GB）：[mm-ts-event-control-data.zip](https://github.com/xujianscut/mm-ts-event-control/releases/download/v1.0/mm-ts-event-control-data.zip)（[Release v1.0](https://github.com/xujianscut/mm-ts-event-control/releases/tag/v1.0)）**
 
 数据包内容与本仓库相同，额外包含 `data/processed/` 下 7 个预处理好的 `.npz`（GitHub 不允许单个文件超过 100 MB，所以没有放进 git）。下载解压后用 `data/processed/MD5SUMS` 校验：
 

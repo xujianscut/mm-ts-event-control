@@ -1,0 +1,14 @@
+[strong solar] STRONG enc testN=868 grouped=False seeds=10
+  seed2026: best=time single=0.805 full=0.828 ens=0.780 ctrl=0.798
+  seed2027: best=time single=0.806 full=0.754 ens=0.777 ctrl=0.800
+  seed2028: best=time single=0.795 full=0.764 ens=0.833 ctrl=0.804
+  seed2029: best=time single=0.800 full=0.791 ens=0.836 ctrl=0.796
+  seed2030: best=time single=0.799 full=0.808 ens=0.787 ctrl=0.802
+  seed2031: best=time single=0.789 full=0.786 ens=0.771 ctrl=0.795
+  seed2032: best=time single=0.805 full=0.798 ens=0.770 ctrl=0.802
+  seed2033: best=time single=0.808 full=0.823 ens=0.835 ctrl=0.803
+  seed2034: best=time single=0.799 full=0.816 ens=0.818 ctrl=0.804
+  seed2035: best=time single=0.804 full=0.812 ens=0.762 ctrl=0.805
+STRONG_JSON {"ds": "solar", "enc": "STRONG", "best": "time", "best_f1": 0.801, "full_f1": 0.798, "dfull": [-0.003, 0.017, 0.732], "ens_f1": 0.797, "dens": [-0.004, 0.022, 0.688], "ctrl_f1": 0.801, "dctrl": [0.0, 0.004, 0.962], "net_compl": -0.004, "boot_dens_ci": [0.004, 0.049], "boot_p": 0.012, "grouped": false}
+STRONG_DONE_solar
+STRONG_ALLDONE_solar

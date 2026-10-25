@@ -1,0 +1,13 @@
+[extra solar] present=['time', 'image'] nC=2
+  seed2026: wfuse_grid=0.837 gate=0.832
+  seed2027: wfuse_grid=0.846 gate=0.852
+  seed2028: wfuse_grid=0.833 gate=0.829
+  seed2029: wfuse_grid=0.836 gate=0.819
+  seed2030: wfuse_grid=0.824 gate=0.823
+  seed2031: wfuse_grid=0.840 gate=0.825
+  seed2032: wfuse_grid=0.823 gate=0.820
+  seed2033: wfuse_grid=0.820 gate=0.813
+  seed2034: wfuse_grid=0.829 gate=0.821
+  seed2035: wfuse_grid=0.825 gate=0.826
+EXTRA_JSON {"ds": "solar", "present": ["time", "image"], "wfuse_grid_f1": 0.831, "gating_f1": 0.826}
+EXTRA_DONE_solar

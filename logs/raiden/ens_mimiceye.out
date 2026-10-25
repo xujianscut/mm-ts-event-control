@@ -1,0 +1,5 @@
+[ens mimiceye] present=['time', 'image', 'text']
+  best-single(text) 0.686±0.019 | Ensemble 0.743±0.034
+  Δ_ens=+0.057 t9-95%CI[+0.042,+0.073] perm-p=0.002
+ENS_JSON {"ds": "mimiceye", "best": "text", "best_f1": 0.686, "ens_f1": 0.743, "ens_sd": 0.034, "delta_ens": 0.057, "ci": 0.015, "perm_p": 0.002}
+ENS_DONE_mimiceye

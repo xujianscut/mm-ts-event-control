@@ -1,0 +1,14 @@
+[strong hursat] STRONG enc testN=5119 grouped=False seeds=10
+  seed2026: best=image single=0.750 full=0.738 ens=0.760 ctrl=0.762
+  seed2027: best=image single=0.740 full=0.750 ens=0.766 ctrl=0.757
+  seed2028: best=image single=0.707 full=0.730 ens=0.733 ctrl=0.728
+  seed2029: best=image single=0.748 full=0.747 ens=0.775 ctrl=0.763
+  seed2030: best=image single=0.749 full=0.757 ens=0.759 ctrl=0.745
+  seed2031: best=image single=0.732 full=0.760 ens=0.770 ctrl=0.752
+  seed2032: best=image single=0.717 full=0.743 ens=0.749 ctrl=0.738
+  seed2033: best=image single=0.754 full=0.728 ens=0.781 ctrl=0.753
+  seed2034: best=image single=0.730 full=0.751 ens=0.756 ctrl=0.733
+  seed2035: best=image single=0.735 full=0.712 ens=0.756 ctrl=0.747
+STRONG_JSON {"ds": "hursat", "enc": "STRONG", "best": "image", "best_f1": 0.736, "full_f1": 0.742, "dfull": [0.006, 0.014, 0.409], "ens_f1": 0.76, "dens": [0.024, 0.006, 0.002], "ctrl_f1": 0.748, "dctrl": [0.012, 0.006, 0.012], "net_compl": 0.012, "boot_dens_ci": [0.009, 0.051], "boot_p": 0.001, "grouped": false}
+STRONG_DONE_hursat
+STRONG_ALLDONE_hursat

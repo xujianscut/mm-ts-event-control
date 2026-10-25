@@ -1,0 +1,14 @@
+[unified2 mimiceye] present=['time', 'image', 'text'] testN=224 grouped=False seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+UNI2_JSON {"ds": "mimiceye", "present": ["time", "image", "text"], "testN": 224, "grouped": false, "best": "text", "best_f1": 0.702, "singles": {"time": 0.663, "image": 0.669, "text": 0.702}, "val_best": "text", "full_f1": 0.705, "dfull": [0.003, 0.02, 0.768], "ens_f1": 0.74, "dens": [0.038, 0.023, 0.002], "ctrl_f1": 0.705, "dctrl": [0.003, 0.015, 0.63], "excess": 0.035, "excess_ci": 0.014, "excess_p": 0.002, "wf_f1": 0.734, "dwf": [0.032, 0.021, 0.008], "shaspec_f1": 0.695, "timecap_f1": 0.729, "aux_drop": {"time": 0.007, "image": 0.015, "text": 0.171}, "oracle": 0.938, "all_wrong": 0.062, "boot_dens_ci": [0.008, 0.109], "boot_p": 0.0095}
+UNI2_DONE_mimiceye
+U2_DONE_mimiceye

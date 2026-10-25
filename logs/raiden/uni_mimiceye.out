@@ -1,0 +1,14 @@
+[unified mimiceye] present=['time', 'image', 'text'] nC=2 testN=224 grouped=False seeds=10
+  seed2026: best=text single=0.705 full=0.651 ens=0.762 ctrl=0.713
+  seed2027: best=text single=0.718 full=0.664 ens=0.757 ctrl=0.699
+  seed2028: best=text single=0.675 full=0.716 ens=0.746 ctrl=0.691
+  seed2029: best=text single=0.719 full=0.672 ens=0.748 ctrl=0.722
+  seed2030: best=text single=0.701 full=0.711 ens=0.765 ctrl=0.724
+  seed2031: best=text single=0.716 full=0.695 ens=0.711 ctrl=0.712
+  seed2032: best=text single=0.711 full=0.724 ens=0.734 ctrl=0.704
+  seed2033: best=text single=0.721 full=0.695 ens=0.737 ctrl=0.685
+  seed2034: best=text single=0.675 full=0.702 ens=0.693 ctrl=0.685
+  seed2035: best=text single=0.681 full=0.702 ens=0.748 ctrl=0.718
+UNI_JSON {"ds": "mimiceye", "present": ["time", "image", "text"], "testN": 224, "grouped": false, "nGroups": null, "best": "text", "best_f1": 0.702, "singles": {"time": 0.663, "image": 0.661, "text": 0.702}, "full_f1": 0.693, "dfull": [-0.009, 0.026, 0.423], "ens_f1": 0.74, "dens": [0.038, 0.019, 0.004], "ctrl_f1": 0.705, "dctrl": [0.003, 0.015, 0.63], "wf_f1": 0.743, "dwf": [0.04, 0.023, 0.004], "shaspec_f1": 0.693, "timecap_f1": 0.729, "aux_drop": {"time": 0.001, "image": -0.0, "text": 0.169}, "oracle": 0.951, "all_wrong": 0.049, "boot_dens_ci": [0.004, 0.097], "boot_p": 0.015, "net_compl": 0.035, "pos_rate": 0.617}
+UNI_DONE_mimiceye
+UNI_ALLDONE_mimiceye

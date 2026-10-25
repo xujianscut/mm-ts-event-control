@@ -1,0 +1,4 @@
+[audit2 dtlf] present=['time', 'image'] nC=2 test=7311
+  best(time)=0.574 | Full=0.615 Δ=+0.041(±0.019,p=0.004) | Ens=0.592 Δ=+0.019(±0.019,p=0.066) | imgdrop=+0.026
+AUDIT2_JSON {"ds": "dtlf", "present": ["time", "image"], "testN": 7311, "best": "time", "best_f1": 0.574, "best_sd": 0.01, "full_f1": 0.615, "delta_full": 0.041, "ci_full": 0.019, "p_full": 0.004, "ens_f1": 0.592, "delta_ens": 0.019, "ci_ens": 0.019, "p_ens": 0.066, "img_perm_drop": 0.026, "oracle": 0.99, "pos_rate": 0.024}
+A2_DONE_dtlf

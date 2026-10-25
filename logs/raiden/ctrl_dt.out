@@ -1,0 +1,4 @@
+[control dt] best=time 训练2组不同init...
+  best-single 0.812 | same-modal-ens 0.814 | Δ_samemodal +0.002 (±0.004, p=0.213)
+CTRL_JSON {"ds": "dt", "best": "time", "single": 0.812, "samemodal_ens": 0.814, "delta_samemodal": 0.002, "ci": 0.004, "perm_p": 0.213}
+CTRL_DONE_dt

@@ -1,0 +1,87 @@
+######## DEDICATED singles (10 seeds) ########
+  [time] seed2026: macroF1=0.620 acc=0.621 auc=0.734
+  [time] seed2027: macroF1=0.675 acc=0.683 auc=0.782
+  [time] seed2028: macroF1=0.650 acc=0.656 auc=0.772
+  [time] seed2029: macroF1=0.707 acc=0.723 auc=0.784
+  [time] seed2030: macroF1=0.704 acc=0.714 auc=0.787
+  [time] seed2031: macroF1=0.690 acc=0.692 auc=0.771
+  [time] seed2032: macroF1=0.672 acc=0.674 auc=0.779
+  [time] seed2033: macroF1=0.679 acc=0.683 auc=0.791
+  [time] seed2034: macroF1=0.696 acc=0.710 auc=0.772
+  [time] seed2035: macroF1=0.715 acc=0.728 auc=0.785
+  >> DEDICATED time-only macroF1 0.681±0.027
+  [image] seed2026: macroF1=0.672 acc=0.688 auc=0.722
+  [image] seed2027: macroF1=0.648 acc=0.692 auc=0.725
+  [image] seed2028: macroF1=0.701 acc=0.728 auc=0.768
+  [image] seed2029: macroF1=0.653 acc=0.661 auc=0.737
+  [image] seed2030: macroF1=0.712 acc=0.723 auc=0.758
+  [image] seed2031: macroF1=0.673 acc=0.679 auc=0.779
+  [image] seed2032: macroF1=0.675 acc=0.688 auc=0.753
+  [image] seed2033: macroF1=0.694 acc=0.710 auc=0.750
+  [image] seed2034: macroF1=0.640 acc=0.647 auc=0.701
+  [image] seed2035: macroF1=0.663 acc=0.701 auc=0.721
+  >> DEDICATED image-only macroF1 0.673±0.022
+  [text] seed2026: macroF1=0.687 acc=0.705 auc=0.771
+  [text] seed2027: macroF1=0.664 acc=0.692 auc=0.766
+  [text] seed2028: macroF1=0.710 acc=0.728 auc=0.802
+  [text] seed2029: macroF1=0.691 acc=0.710 auc=0.774
+  [text] seed2030: macroF1=0.648 acc=0.674 auc=0.760
+  [text] seed2031: macroF1=0.695 acc=0.719 auc=0.797
+  [text] seed2032: macroF1=0.699 acc=0.728 auc=0.788
+  [text] seed2033: macroF1=0.705 acc=0.737 auc=0.799
+  [text] seed2034: macroF1=0.688 acc=0.710 auc=0.779
+  [text] seed2035: macroF1=0.673 acc=0.701 auc=0.783
+  >> DEDICATED text-only macroF1 0.686±0.018
+######## v2 gated fusion (anchor=text, 10 seeds) ########
+[mimiceye] n=1489 nC=2 test=224 dist=[570, 919] anchor=text
+  seed2026: fused mF1=0.666 acc=0.692 auc=0.795 | time=0.506 image=0.595 text=0.666
+  seed2027: fused mF1=0.671 acc=0.696 auc=0.795 | time=0.474 image=0.636 text=0.671
+  seed2028: fused mF1=0.696 acc=0.719 auc=0.805 | time=0.544 image=0.386 text=0.696
+  seed2029: fused mF1=0.687 acc=0.710 auc=0.797 | time=0.550 image=0.521 text=0.692
+  seed2030: fused mF1=0.669 acc=0.696 auc=0.797 | time=0.477 image=0.386 text=0.669
+  seed2031: fused mF1=0.700 acc=0.723 auc=0.805 | time=0.615 image=0.386 text=0.700
+  seed2032: fused mF1=0.671 acc=0.696 auc=0.792 | time=0.469 image=0.514 text=0.666
+  seed2033: fused mF1=0.696 acc=0.719 auc=0.801 | time=0.463 image=0.270 text=0.696
+  seed2034: fused mF1=0.691 acc=0.714 auc=0.799 | time=0.471 image=0.633 text=0.691
+  seed2035: fused mF1=0.707 acc=0.728 auc=0.802 | time=0.586 image=0.397 text=0.707
+  >> FUSED macroF1 0.685±0.014 | best-single 0.685±0.015
+######## v2 gated fusion (anchor=image, 10 seeds) ########
+[mimiceye] n=1489 nC=2 test=224 dist=[570, 919] anchor=image
+  seed2026: fused mF1=0.689 acc=0.714 auc=0.805 | time=0.526 image=0.469 text=0.689
+  seed2027: fused mF1=0.711 acc=0.732 auc=0.807 | time=0.486 image=0.626 text=0.711
+  seed2028: fused mF1=0.703 acc=0.723 auc=0.804 | time=0.515 image=0.621 text=0.703
+  seed2029: fused mF1=0.706 acc=0.728 auc=0.807 | time=0.589 image=0.606 text=0.706
+  seed2030: fused mF1=0.713 acc=0.728 auc=0.802 | time=0.509 image=0.424 text=0.713
+  seed2031: fused mF1=0.718 acc=0.741 auc=0.802 | time=0.606 image=0.397 text=0.710
+  seed2032: fused mF1=0.735 acc=0.750 auc=0.814 | time=0.466 image=0.661 text=0.735
+  seed2033: fused mF1=0.714 acc=0.732 auc=0.808 | time=0.471 image=0.551 text=0.720
+  seed2034: fused mF1=0.670 acc=0.701 auc=0.807 | time=0.599 image=0.388 text=0.681
+  seed2035: fused mF1=0.703 acc=0.723 auc=0.806 | time=0.490 image=0.692 text=0.699
+  >> FUSED macroF1 0.706±0.017 | best-single 0.707±0.014
+######## ShaSpec (10 seeds) ########
+[ShaSpec mimiceye] n=1489 nC=2 test=224
+  seed2026: macroF1=0.695 acc=0.723 auc=0.792
+  seed2027: macroF1=0.677 acc=0.710 auc=0.776
+  seed2028: macroF1=0.695 acc=0.728 auc=0.784
+  seed2029: macroF1=0.707 acc=0.732 auc=0.760
+  seed2030: macroF1=0.639 acc=0.679 auc=0.761
+  seed2031: macroF1=0.660 acc=0.688 auc=0.763
+  seed2032: macroF1=0.688 acc=0.710 auc=0.772
+  seed2033: macroF1=0.724 acc=0.741 auc=0.789
+  seed2034: macroF1=0.693 acc=0.710 auc=0.788
+  seed2035: macroF1=0.721 acc=0.732 auc=0.797
+  >> ShaSpec macroF1 0.690±0.025
+######## TS+Text (TimeCAP-equiv, 10 seeds) ########
+[TS+Text(TimeCAP-equiv) mimiceye] nC=2
+  seed2026: macroF1=0.739 acc=0.754 auc=0.823
+  seed2027: macroF1=0.709 acc=0.723 auc=0.796
+  seed2028: macroF1=0.767 acc=0.777 auc=0.831
+  seed2029: macroF1=0.741 acc=0.754 auc=0.823
+  seed2030: macroF1=0.739 acc=0.750 auc=0.824
+  seed2031: macroF1=0.724 acc=0.737 auc=0.826
+  seed2032: macroF1=0.707 acc=0.732 auc=0.809
+  seed2033: macroF1=0.721 acc=0.732 auc=0.821
+  seed2034: macroF1=0.732 acc=0.750 auc=0.825
+  seed2035: macroF1=0.715 acc=0.746 auc=0.817
+  >> TS+Text macroF1 0.729±0.017
+ME_ALL_DONE

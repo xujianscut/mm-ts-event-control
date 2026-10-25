@@ -1,0 +1,51 @@
+######## v2 gated fusion (10 seeds) ########
+[dt] n=46469 nC=2 test=6787 dist=[43083, 3386] anchor=image
+  seed2026: fused mF1=0.846 acc=0.958 auc=0.958 | time=0.746 image=0.821 text=0.482
+  seed2027: fused mF1=0.810 acc=0.937 auc=0.958 | time=0.702 image=0.778 text=0.482
+  seed2028: fused mF1=0.778 acc=0.923 auc=0.950 | time=0.624 image=0.762 text=0.482
+  seed2029: fused mF1=0.829 acc=0.951 auc=0.956 | time=0.699 image=0.811 text=0.482
+  seed2030: fused mF1=0.822 acc=0.951 auc=0.952 | time=0.648 image=0.790 text=0.482
+  seed2031: fused mF1=0.809 acc=0.945 auc=0.952 | time=0.622 image=0.796 text=0.482
+  seed2032: fused mF1=0.819 acc=0.941 auc=0.957 | time=0.691 image=0.794 text=0.482
+  seed2033: fused mF1=0.830 acc=0.948 auc=0.958 | time=0.732 image=0.804 text=0.482
+  seed2034: fused mF1=0.824 acc=0.947 auc=0.958 | time=0.640 image=0.803 text=0.482
+  seed2035: fused mF1=0.827 acc=0.947 auc=0.959 | time=0.723 image=0.809 text=0.482
+  >> FUSED macroF1 0.819±0.017 | best-single 0.797±0.016
+######## DEDICATED time-only (10 seeds) ########
+  [time] seed2026: macroF1=0.819 acc=0.941 auc=0.971
+  [time] seed2027: macroF1=0.802 acc=0.933 auc=0.969
+  [time] seed2028: macroF1=0.814 acc=0.938 auc=0.970
+  [time] seed2029: macroF1=0.800 acc=0.932 auc=0.966
+  [time] seed2030: macroF1=0.793 acc=0.928 auc=0.968
+  [time] seed2031: macroF1=0.822 acc=0.942 auc=0.971
+  [time] seed2032: macroF1=0.786 acc=0.924 auc=0.965
+  [time] seed2033: macroF1=0.756 acc=0.906 auc=0.955
+  [time] seed2034: macroF1=0.812 acc=0.938 auc=0.970
+  [time] seed2035: macroF1=0.805 acc=0.934 auc=0.971
+  >> DEDICATED time-only macroF1 0.801±0.018
+######## DEDICATED image-only (10 seeds) ########
+  [image] seed2026: macroF1=0.794 acc=0.934 auc=0.950
+  [image] seed2027: macroF1=0.825 acc=0.951 auc=0.945
+  [image] seed2028: macroF1=0.794 acc=0.946 auc=0.940
+  [image] seed2029: macroF1=0.810 acc=0.949 auc=0.941
+  [image] seed2030: macroF1=0.798 acc=0.934 auc=0.955
+  [image] seed2031: macroF1=0.784 acc=0.949 auc=0.936
+  [image] seed2032: macroF1=0.835 acc=0.954 auc=0.955
+  [image] seed2033: macroF1=0.789 acc=0.932 auc=0.947
+  [image] seed2034: macroF1=0.794 acc=0.931 auc=0.948
+  [image] seed2035: macroF1=0.794 acc=0.937 auc=0.936
+  >> DEDICATED image-only macroF1 0.802±0.016
+######## ShaSpec (10 seeds) ########
+[ShaSpec dt] n=46469 nC=2 test=6787
+  seed2026: macroF1=0.809 acc=0.947 auc=0.954
+  seed2027: macroF1=0.807 acc=0.950 auc=0.959
+  seed2028: macroF1=0.822 acc=0.947 auc=0.953
+  seed2029: macroF1=0.793 acc=0.933 auc=0.944
+  seed2030: macroF1=0.816 acc=0.942 auc=0.966
+  seed2031: macroF1=0.801 acc=0.937 auc=0.957
+  seed2032: macroF1=0.809 acc=0.942 auc=0.956
+  seed2033: macroF1=0.801 acc=0.940 auc=0.952
+  seed2034: macroF1=0.803 acc=0.938 auc=0.956
+  seed2035: macroF1=0.787 acc=0.938 auc=0.948
+  >> ShaSpec macroF1 0.805±0.010
+DT10_DONE

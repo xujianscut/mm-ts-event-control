@@ -1,0 +1,37 @@
+######## DEDICATED singles: weather_aligned_v1 ########
+  [time] seed2026: macroF1=0.613 acc=0.775 auc=0.805
+  [time] seed2027: macroF1=0.612 acc=0.756 auc=0.805
+  [time] seed2028: macroF1=0.628 acc=0.772 auc=0.829
+  >> DEDICATED time-only macroF1 0.618±0.007
+  [image] seed2026: macroF1=0.708 acc=0.857 auc=0.872
+  [image] seed2027: macroF1=0.671 acc=0.835 auc=0.845
+  [image] seed2028: macroF1=0.687 acc=0.835 auc=0.867
+  >> DEDICATED image-only macroF1 0.689±0.015
+  [text] seed2026: macroF1=0.620 acc=0.750 auc=0.831
+  [text] seed2027: macroF1=0.583 acc=0.697 auc=0.815
+  [text] seed2028: macroF1=0.654 acc=0.804 auc=0.852
+  >> DEDICATED text-only macroF1 0.619±0.029
+######## DEDICATED singles: weather2 ########
+  [time] seed2026: macroF1=0.464 acc=0.556 auc=0.801
+  [time] seed2027: macroF1=0.468 acc=0.497 auc=0.783
+  [time] seed2028: macroF1=0.448 acc=0.489 auc=0.788
+  >> DEDICATED time-only macroF1 0.460±0.009
+  [image] seed2026: macroF1=0.491 acc=0.616 auc=0.838
+  [image] seed2027: macroF1=0.476 acc=0.610 auc=0.825
+  [image] seed2028: macroF1=0.490 acc=0.605 auc=0.843
+  >> DEDICATED image-only macroF1 0.486±0.007
+  [text] seed2026: macroF1=0.316 acc=0.353 auc=0.594
+  [text] seed2027: macroF1=0.276 acc=0.316 auc=0.582
+  [text] seed2028: macroF1=0.268 acc=0.339 auc=0.592
+  >> DEDICATED text-only macroF1 0.287±0.021
+######## DEDICATED singles: traffic ########
+  [time] seed2026: macroF1=0.638 acc=0.638 auc=0.683
+  [time] seed2027: macroF1=0.638 acc=0.638 auc=0.683
+  [time] seed2028: macroF1=0.641 acc=0.641 auc=0.684
+  >> DEDICATED time-only macroF1 0.639±0.001
+  [image] seed2026: macroF1=0.645 acc=0.646 auc=0.674
+  [image] seed2027: macroF1=0.647 acc=0.649 auc=0.680
+  [image] seed2028: macroF1=0.650 acc=0.652 auc=0.676
+  >> DEDICATED image-only macroF1 0.648±0.002
+  [text] seed2026: macroF1=0.575 acc=0.584 auc=0.611
+  [text] seed2027: macroF1=0.565 acc=0.594 auc=0.641

@@ -1,0 +1,26 @@
+风暴数: 1082
+读到时间步: 65464  (261s)
+NATURE 匹配率: 0.9353690578027618
+NATURE
+TS    46583
+DS     5798
+ET     3795
+MX     3193
+NR     1358
+Name: count, dtype: int64
+样本: 36879  正例率: 0.0331  (283s)
+划分: {np.str_('test'): 5119, np.str_('train'): 26384, np.str_('val'): 5376}
+saved /home/jianxu/v2_cache/hursat_raw.npz N=36879 用时 301s
+HURSAT_BUILD_DONE
+saved hursat.npz N= 36879 pos= 0.03305404159548795
+######## SubsetSelect: HURSAT-ET ########
+[SubsetSelect hursat] N=36879 候选子集=7
+  seed2026: pick=time+image+text    sel_test=0.739 | all3=0.739 | best_single=0.732
+  seed2027: pick=time+image         sel_test=0.750 | all3=0.731 | best_single=0.703
+  seed2028: pick=time+image+text    sel_test=0.780 | all3=0.780 | best_single=0.731
+  seed2029: pick=time+image+text    sel_test=0.767 | all3=0.767 | best_single=0.714
+  seed2030: pick=time+image         sel_test=0.742 | all3=0.747 | best_single=0.703
+  >> SubsetSelect 0.756±0.016 | all-3(强制全模态) 0.753±0.018 | best-single 0.717±0.013
+  >> 单调性: Subset-best_single=+0.039 | all3-best_single=+0.036
+  >> 选中: {'time+image+text': 3, 'time+image': 2}
+HURSAT_ALL_DONE

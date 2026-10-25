@@ -1,0 +1,4 @@
+[audit2 solar] present=['time', 'image'] nC=2 test=868
+  best(time)=0.798 | Full=0.817 Δ=+0.019(±0.011,p=0.014) | Ens=0.823 Δ=+0.025(±0.009,p=0.002) | imgdrop=+0.227
+AUDIT2_JSON {"ds": "solar", "present": ["time", "image"], "testN": 868, "best": "time", "best_f1": 0.798, "best_sd": 0.007, "full_f1": 0.817, "delta_full": 0.019, "ci_full": 0.011, "p_full": 0.014, "ens_f1": 0.823, "delta_ens": 0.025, "ci_ens": 0.009, "p_ens": 0.002, "img_perm_drop": 0.227, "oracle": 0.907, "pos_rate": 0.426}
+A2_DONE_solar

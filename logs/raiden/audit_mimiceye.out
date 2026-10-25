@@ -1,0 +1,6 @@
+[audit mimiceye] N=1489 present=['time', 'image', 'text'] lattice=7 nC=2 seeds=10
+  best-single(text) 0.686±0.019 | FullConcat 0.685±0.024
+  Δ_full=-0.001  t9-95%CI[-0.021,+0.019]  perm-p=0.876  boot95[-0.036,+0.035]
+  Ensemble=0.728  Δ(Full-Ens)=-0.041  | oracle=0.929 all-wrong=0.071 | image-perm drop=+0.010
+AUDIT_JSON {"ds": "mimiceye", "present": ["time", "image", "text"], "best": "text", "best_f1": 0.686, "best_sd": 0.019, "full_f1": 0.685, "full_sd": 0.024, "delta": -0.001, "ci": 0.02, "perm_p": 0.876, "boot95": [-0.036, 0.035], "ensemble_f1": 0.728, "delta_vs_ens": -0.041, "oracle": 0.929, "all_wrong": 0.071, "img_perm_drop": 0.01, "pos_rate": 0.617}
+AUDIT_DONE_mimiceye

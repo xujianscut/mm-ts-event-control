@@ -1,0 +1,3 @@
+[exboot dt enc=strong] testN=6787 grouped=True
+EXBOOT_JSON {"ds": "dt", "enc": "strong", "best": "time", "grouped": true, "excess_point": 0.022, "excess_boot_ci": [-0.0, 0.046], "excess_boot_p": 0.026}
+EXBOOT_DONE_dt_strong

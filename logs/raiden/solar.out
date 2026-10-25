@@ -1,0 +1,22 @@
+[training] meta=8336 folders=8336
+  train 2000/8336 (25s)
+  train 4000/8336 (47s)
+  train 6000/8336 (70s)
+  train 8000/8336 (92s)
+  train: N=8186 imgs=(8186, 1, 96, 96) pos(>=C1)=0.408
+[test] meta=886 folders=886
+  test: N=868 imgs=(868, 1, 96, 96) pos(>=C1)=0.594
+split: {np.str_('test'): 868, np.str_('train'): 6958, np.str_('val'): 1228} | 正例率 0.4257786613651425
+saved /home/jianxu/v2_cache/solar.npz N=9054 用时 115s
+SOLAR_BUILD_DONE
+######## SubsetSelect: solar ########
+[SubsetSelect solar] N=9054 候选子集=7
+  seed2026: pick=time+image+text    sel_test=0.836 | all3=0.836 | best_single=0.824
+  seed2027: pick=time+image         sel_test=0.812 | all3=0.827 | best_single=0.814
+  seed2028: pick=time+image+text    sel_test=0.816 | all3=0.816 | best_single=0.820
+  seed2029: pick=time+image         sel_test=0.831 | all3=0.843 | best_single=0.827
+  seed2030: pick=time+image         sel_test=0.820 | all3=0.834 | best_single=0.798
+  >> SubsetSelect 0.823±0.009 | all-3(强制全模态) 0.831±0.009 | best-single 0.817±0.010
+  >> 单调性: Subset-best_single=+0.006 | all3-best_single=+0.015
+  >> 选中: {'time+image+text': 2, 'time+image': 3}
+SOLAR_ALL_DONE

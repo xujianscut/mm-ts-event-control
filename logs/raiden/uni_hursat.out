@@ -1,0 +1,14 @@
+[unified hursat] present=['time', 'image'] nC=2 testN=5119 grouped=False seeds=10
+  seed2026: best=image single=0.734 full=0.773 ens=0.743 ctrl=0.721
+  seed2027: best=image single=0.754 full=0.773 ens=0.761 ctrl=0.745
+  seed2028: best=image single=0.711 full=0.762 ens=0.748 ctrl=0.726
+  seed2029: best=image single=0.686 full=0.730 ens=0.727 ctrl=0.699
+  seed2030: best=image single=0.715 full=0.735 ens=0.750 ctrl=0.757
+  seed2031: best=image single=0.726 full=0.745 ens=0.752 ctrl=0.750
+  seed2032: best=image single=0.716 full=0.737 ens=0.759 ctrl=0.731
+  seed2033: best=image single=0.707 full=0.742 ens=0.756 ctrl=0.723
+  seed2034: best=image single=0.692 full=0.777 ens=0.762 ctrl=0.709
+  seed2035: best=image single=0.727 full=0.767 ens=0.760 ctrl=0.713
+UNI_JSON {"ds": "hursat", "present": ["time", "image"], "testN": 5119, "grouped": false, "nGroups": null, "best": "image", "best_f1": 0.717, "singles": {"time": 0.667, "image": 0.717}, "full_f1": 0.754, "dfull": [0.037, 0.015, 0.002], "ens_f1": 0.752, "dens": [0.035, 0.013, 0.002], "ctrl_f1": 0.727, "dctrl": [0.011, 0.013, 0.084], "wf_f1": 0.749, "dwf": [0.032, 0.011, 0.002], "shaspec_f1": 0.749, "timecap_f1": null, "aux_drop": {"time": 0.084, "image": 0.221}, "oracle": 0.976, "all_wrong": 0.024, "boot_dens_ci": [0.013, 0.053], "boot_p": 0.001, "net_compl": 0.024, "pos_rate": 0.033}
+UNI_DONE_hursat
+UNI_ALLDONE_hursat

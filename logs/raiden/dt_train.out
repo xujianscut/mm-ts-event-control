@@ -1,0 +1,8 @@
+dl-gtn10
+GPU 0: NVIDIA A100-SXM4-40GB (UUID: GPU-25e35a2c-4212-6e72-559b-1f1934e51fc6)
+[dt] n=46469 nC=2 test=6787 dist=[43083, 3386] anchor=image
+  seed2026: fused mF1=0.811 acc=0.939 auc=0.960 | time=0.617 image=0.785 text=0.482
+  seed2027: fused mF1=0.824 acc=0.946 auc=0.955 | time=0.626 image=0.798 text=0.482
+  seed2028: fused mF1=0.831 acc=0.954 auc=0.953 | time=0.630 image=0.815 text=0.482
+  >> FUSED macroF1 0.822±0.008 | best-single 0.799±0.012
+DT_TRAIN_DONE

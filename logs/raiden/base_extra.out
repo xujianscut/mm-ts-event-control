@@ -1,0 +1,41 @@
+######## ShaSpec: dtlf ########
+[ShaSpec dtlf] n=50460 nC=2 test=7311
+  seed2026: macroF1=0.653 acc=0.965 auc=0.941
+  seed2027: macroF1=0.572 acc=0.913 auc=0.920
+  seed2028: macroF1=0.600 acc=0.934 auc=0.947
+  seed2029: macroF1=0.630 acc=0.958 auc=0.928
+  seed2030: macroF1=0.594 acc=0.934 auc=0.950
+  >> ShaSpec macroF1 0.610±0.028
+######## ShaSpec: hursat ########
+[ShaSpec hursat] n=36879 nC=2 test=5119
+  seed2026: macroF1=0.737 acc=0.953 auc=0.966
+  seed2027: macroF1=0.762 acc=0.969 auc=0.944
+  seed2028: macroF1=0.751 acc=0.958 auc=0.965
+  seed2029: macroF1=0.740 acc=0.963 auc=0.934
+  seed2030: macroF1=0.731 acc=0.958 auc=0.957
+  >> ShaSpec macroF1 0.744±0.011
+######## ShaSpec: solar ########
+[ShaSpec solar] n=9054 nC=2 test=868
+  seed2026: macroF1=0.817 acc=0.825 auc=0.909
+  seed2027: macroF1=0.809 acc=0.811 auc=0.890
+  seed2028: macroF1=0.820 acc=0.823 auc=0.896
+  seed2029: macroF1=0.829 acc=0.831 auc=0.907
+  seed2030: macroF1=0.811 acc=0.818 auc=0.900
+  >> ShaSpec macroF1 0.817±0.007
+######## ShaSpec: mimiceye ########
+[ShaSpec mimiceye] n=1489 nC=2 test=224
+  seed2026: macroF1=0.706 acc=0.728 auc=0.794
+  seed2027: macroF1=0.663 acc=0.688 auc=0.760
+  seed2028: macroF1=0.695 acc=0.728 auc=0.786
+  seed2029: macroF1=0.707 acc=0.732 auc=0.762
+  seed2030: macroF1=0.681 acc=0.705 auc=0.787
+  >> ShaSpec macroF1 0.690±0.016
+######## TimeCAP-equiv(TS+text): mimiceye ########
+[TS+Text(TimeCAP-equiv) mimiceye] nC=2
+  seed2026: macroF1=0.739 acc=0.754 auc=0.823
+  seed2027: macroF1=0.709 acc=0.723 auc=0.796
+  seed2028: macroF1=0.767 acc=0.777 auc=0.831
+  seed2029: macroF1=0.741 acc=0.754 auc=0.823
+  seed2030: macroF1=0.739 acc=0.750 auc=0.824
+  >> TS+Text macroF1 0.739±0.018
+BASE_EXTRA_DONE

@@ -1,0 +1,4 @@
+[audit2 mimiceye] present=['time', 'image', 'text'] nC=2 test=224
+  best(text)=0.708 | Full=0.701 Δ=-0.007(±0.014,p=0.284) | Ens=0.755 Δ=+0.047(±0.018,p=0.004) | imgdrop=+0.024
+AUDIT2_JSON {"ds": "mimiceye", "present": ["time", "image", "text"], "testN": 224, "best": "text", "best_f1": 0.708, "best_sd": 0.007, "full_f1": 0.701, "delta_full": -0.007, "ci_full": 0.014, "p_full": 0.284, "ens_f1": 0.755, "delta_ens": 0.047, "ci_ens": 0.018, "p_ens": 0.004, "img_perm_drop": 0.024, "oracle": 0.924, "pos_rate": 0.617}
+A2_DONE_mimiceye

@@ -1,0 +1,5 @@
+[ens hursat] present=['time', 'image']
+  best-single(image) 0.735±0.013 | Ensemble 0.758±0.014
+  Δ_ens=+0.023 t9-95%CI[+0.015,+0.032] perm-p=0.002
+ENS_JSON {"ds": "hursat", "best": "image", "best_f1": 0.735, "ens_f1": 0.758, "ens_sd": 0.014, "delta_ens": 0.023, "ci": 0.008, "perm_p": 0.002}
+ENS_DONE_hursat

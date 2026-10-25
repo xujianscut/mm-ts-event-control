@@ -1,0 +1,3 @@
+[exboot solar enc=weak] testN=868 grouped=True
+EXBOOT_JSON {"ds": "solar", "enc": "weak", "best": "image", "grouped": true, "excess_point": 0.01, "excess_boot_ci": [-0.015, 0.033], "excess_boot_p": 0.2257}
+EXBOOT_DONE_solar_weak

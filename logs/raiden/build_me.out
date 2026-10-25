@@ -1,0 +1,10 @@
+dl-gtn10
+              total        used        free      shared  buff/cache   available
+Mem:           1007          78         671           2         257         921
+patients: 3190
+三模态样本: 1489  (1s)
+正例(ADMITTED)率: 0.617
+患者划分: {np.str_('test'): 224, np.str_('train'): 1036, np.str_('val'): 229}
+图像: (1489, 1, 96, 96) (7s)
+saved /home/jianxu/v2_cache/mimiceye_raw.npz  N=1489  用时 8s
+BUILD_ME_DONE

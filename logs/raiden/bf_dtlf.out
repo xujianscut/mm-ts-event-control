@@ -1,0 +1,14 @@
+[boot_full dtlf] testN=7311 groups=162 seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+BOOTFULL_JSON {"ds": "dtlf", "best": "time", "boot_dfull_ci": [0.0, 0.134], "boot_dfull_p": 0.024, "boot_dens_ci": [-0.026, 0.095], "boot_dens_p": 0.125, "nGroups": 162}
+BOOTFULL_DONE_dtlf
+BF_ALLDONE_dtlf

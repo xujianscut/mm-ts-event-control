@@ -1,0 +1,4 @@
+[audit2 dt] present=['time', 'image'] nC=2 test=6787
+  best(time)=0.806 | Full=0.807 Δ=+0.001(±0.007,p=0.662) | Ens=0.836 Δ=+0.031(±0.007,p=0.002) | imgdrop=+0.213
+AUDIT2_JSON {"ds": "dt", "present": ["time", "image"], "testN": 6787, "best": "time", "best_f1": 0.806, "best_sd": 0.007, "full_f1": 0.807, "delta_full": 0.001, "ci_full": 0.007, "p_full": 0.662, "ens_f1": 0.836, "delta_ens": 0.031, "ci_ens": 0.007, "p_ens": 0.002, "img_perm_drop": 0.213, "oracle": 0.971, "pos_rate": 0.073}
+A2_DONE_dt

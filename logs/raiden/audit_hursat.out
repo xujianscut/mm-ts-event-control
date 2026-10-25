@@ -1,0 +1,6 @@
+[audit hursat] N=36879 present=['time', 'image'] lattice=3 nC=2 seeds=10
+  best-single(image) 0.716±0.014 | FullConcat 0.749±0.021
+  Δ_full=+0.033  t9-95%CI[+0.012,+0.054]  perm-p=0.008  boot95[+0.067,+0.115]
+  Ensemble=0.764  Δ(Full-Ens)=+0.022  | oracle=0.976 all-wrong=0.024 | image-perm drop=+0.216
+AUDIT_JSON {"ds": "hursat", "present": ["time", "image"], "best": "image", "best_f1": 0.716, "best_sd": 0.014, "full_f1": 0.749, "full_sd": 0.021, "delta": 0.033, "ci": 0.021, "perm_p": 0.008, "boot95": [0.067, 0.115], "ensemble_f1": 0.764, "delta_vs_ens": 0.022, "oracle": 0.976, "all_wrong": 0.024, "img_perm_drop": 0.216, "pos_rate": 0.033}
+AUDIT_DONE_hursat

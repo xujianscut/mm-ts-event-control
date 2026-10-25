@@ -1,0 +1,6 @@
+[audit solar] N=9054 present=['time', 'image'] lattice=3 nC=2 seeds=10
+  best-single(time) 0.798±0.008 | FullConcat 0.821±0.016
+  Δ_full=+0.022  t9-95%CI[+0.009,+0.036]  perm-p=0.008  boot95[-0.016,+0.034]
+  Ensemble=0.829  Δ(Full-Ens)=-0.007  | oracle=0.900 all-wrong=0.100 | image-perm drop=+0.216
+AUDIT_JSON {"ds": "solar", "present": ["time", "image"], "best": "time", "best_f1": 0.798, "best_sd": 0.008, "full_f1": 0.821, "full_sd": 0.016, "delta": 0.022, "ci": 0.013, "perm_p": 0.008, "boot95": [-0.016, 0.034], "ensemble_f1": 0.829, "delta_vs_ens": -0.007, "oracle": 0.9, "all_wrong": 0.1, "img_perm_drop": 0.216, "pos_rate": 0.426}
+AUDIT_DONE_solar

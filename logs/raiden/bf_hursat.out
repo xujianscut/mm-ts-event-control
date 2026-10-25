@@ -1,0 +1,14 @@
+[boot_full hursat] testN=5119 groups=137 seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+BOOTFULL_JSON {"ds": "hursat", "best": "image", "boot_dfull_ci": [-0.023, 0.027], "boot_dfull_p": 0.445, "boot_dens_ci": [0.001, 0.047], "boot_dens_p": 0.019, "nGroups": 137}
+BOOTFULL_DONE_hursat
+BF_ALLDONE_hursat

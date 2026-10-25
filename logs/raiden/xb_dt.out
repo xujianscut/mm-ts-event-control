@@ -1,0 +1,13 @@
+[extra dt] present=['time', 'image'] nC=2
+  seed2026: wfuse_grid=0.846 gate=0.862
+  seed2027: wfuse_grid=0.842 gate=0.856
+  seed2028: wfuse_grid=0.849 gate=0.858
+  seed2029: wfuse_grid=0.838 gate=0.850
+  seed2030: wfuse_grid=0.828 gate=0.856
+  seed2031: wfuse_grid=0.840 gate=0.862
+  seed2032: wfuse_grid=0.841 gate=0.850
+  seed2033: wfuse_grid=0.838 gate=0.861
+  seed2034: wfuse_grid=0.839 gate=0.855
+  seed2035: wfuse_grid=0.840 gate=0.843
+EXTRA_JSON {"ds": "dt", "present": ["time", "image"], "wfuse_grid_f1": 0.84, "gating_f1": 0.855}
+EXTRA_DONE_dt

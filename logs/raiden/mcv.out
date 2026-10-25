@@ -1,0 +1,28 @@
+[MIMIC-CV] N=1489 patients=1385 folds=5
+  fold0 seed2026: best=0.722 dfull=+0.003 dens=+0.025 dctrl=+0.011
+  fold0 seed2027: best=0.734 dfull=-0.048 dens=+0.036 dctrl=+0.003
+  fold0 seed2028: best=0.732 dfull=-0.029 dens=+0.025 dctrl=-0.010
+  fold0 seed2029: best=0.718 dfull=-0.036 dens=+0.002 dctrl=-0.001
+  fold0 seed2030: best=0.724 dfull=-0.028 dens=+0.035 dctrl=+0.001
+  fold1 seed2026: best=0.737 dfull=-0.021 dens=-0.020 dctrl=-0.019
+  fold1 seed2027: best=0.740 dfull=-0.008 dens=-0.038 dctrl=-0.008
+  fold1 seed2028: best=0.725 dfull=-0.029 dens=-0.057 dctrl=-0.020
+  fold1 seed2029: best=0.723 dfull=-0.009 dens=-0.021 dctrl=-0.007
+  fold1 seed2030: best=0.707 dfull=-0.004 dens=+0.020 dctrl=+0.008
+  fold2 seed2026: best=0.699 dfull=-0.002 dens=+0.015 dctrl=-0.001
+  fold2 seed2027: best=0.689 dfull=+0.001 dens=+0.019 dctrl=-0.002
+  fold2 seed2028: best=0.676 dfull=+0.025 dens=+0.034 dctrl=+0.006
+  fold2 seed2029: best=0.686 dfull=+0.003 dens=+0.028 dctrl=+0.011
+  fold2 seed2030: best=0.694 dfull=+0.004 dens=+0.009 dctrl=+0.003
+  fold3 seed2026: best=0.779 dfull=-0.017 dens=-0.022 dctrl=-0.012
+  fold3 seed2027: best=0.720 dfull=+0.019 dens=+0.009 dctrl=+0.021
+  fold3 seed2028: best=0.767 dfull=-0.024 dens=-0.009 dctrl=-0.005
+  fold3 seed2029: best=0.753 dfull=-0.066 dens=-0.008 dctrl=+0.029
+  fold3 seed2030: best=0.700 dfull=+0.054 dens=+0.028 dctrl=+0.042
+  fold4 seed2026: best=0.740 dfull=-0.008 dens=+0.004 dctrl=-0.005
+  fold4 seed2027: best=0.709 dfull=-0.059 dens=-0.006 dctrl=+0.039
+  fold4 seed2028: best=0.729 dfull=-0.022 dens=-0.015 dctrl=+0.001
+  fold4 seed2029: best=0.735 dfull=+0.039 dens=+0.021 dctrl=+0.007
+  fold4 seed2030: best=0.726 dfull=+0.017 dens=-0.022 dctrl=+0.010
+MIMICCV_JSON {"best_f1": 0.723, "dfull": -0.01, "dens": 0.004, "dctrl": 0.004, "excess": -0.001, "nFoldSeed": 25}
+MIMICCV_DONE

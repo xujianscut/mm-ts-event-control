@@ -1,0 +1,21 @@
+######## SubsetSelect: mimiceye ########
+[SubsetSelect mimiceye] N=1489 候选子集=7
+  seed2026: pick=time+text          sel_test=0.739 | all3=0.705 | best_single=0.687
+  seed2027: pick=text               sel_test=0.664 | all3=0.693 | best_single=0.695
+  seed2028: pick=text               sel_test=0.710 | all3=0.737 | best_single=0.710
+  seed2029: pick=time+text          sel_test=0.741 | all3=0.697 | best_single=0.707
+  seed2030: pick=text               sel_test=0.648 | all3=0.685 | best_single=0.704
+  >> SubsetSelect 0.700±0.038 | all-3(强制全模态) 0.703±0.018 | best-single 0.701±0.008
+  >> 单调性: Subset-best_single=-0.000 | all3-best_single=+0.003
+  >> 选中: {'time+text': 2, 'text': 3}
+######## SubsetSelect: dt ########
+[SubsetSelect dt] N=46469 候选子集=7
+  seed2026: pick=time               sel_test=0.819 | all3=0.799 | best_single=0.819
+  seed2027: pick=time+image+text    sel_test=0.822 | all3=0.822 | best_single=0.802
+  seed2028: pick=time+image         sel_test=0.810 | all3=0.804 | best_single=0.814
+  seed2029: pick=time+image+text    sel_test=0.814 | all3=0.814 | best_single=0.800
+  seed2030: pick=time+image+text    sel_test=0.834 | all3=0.834 | best_single=0.798
+  >> SubsetSelect 0.820±0.008 | all-3(强制全模态) 0.814±0.013 | best-single 0.807±0.008
+  >> 单调性: Subset-best_single=+0.013 | all3-best_single=+0.008
+  >> 选中: {'time': 1, 'time+image+text': 3, 'time+image': 1}
+SUBSET_DONE

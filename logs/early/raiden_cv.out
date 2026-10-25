@@ -1,0 +1,30 @@
+[CV MIMIC-Eye] N=1489 患者=1385 folds=5 seeds=[2026, 2027, 2028]
+  fold0 seed2026: pick=time+text          sel=0.734 | all3=0.696 | best1=0.725 | time+text=0.734
+  fold0 seed2027: pick=time+text          sel=0.719 | all3=0.681 | best1=0.726 | time+text=0.719
+  fold0 seed2028: pick=time+text          sel=0.722 | all3=0.688 | best1=0.717 | time+text=0.722
+  fold1 seed2026: pick=time+image+text    sel=0.737 | all3=0.737 | best1=0.712 | time+text=0.706
+  fold1 seed2027: pick=time+text          sel=0.718 | all3=0.711 | best1=0.709 | time+text=0.718
+  fold1 seed2028: pick=time+text          sel=0.720 | all3=0.678 | best1=0.721 | time+text=0.720
+  fold2 seed2026: pick=image+text         sel=0.663 | all3=0.715 | best1=0.702 | time+text=0.672
+  fold2 seed2027: pick=time+text          sel=0.657 | all3=0.639 | best1=0.697 | time+text=0.657
+  fold2 seed2028: pick=time+text          sel=0.680 | all3=0.658 | best1=0.668 | time+text=0.680
+  fold3 seed2026: pick=time+text          sel=0.777 | all3=0.760 | best1=0.755 | time+text=0.777
+  fold3 seed2027: pick=time+text          sel=0.773 | all3=0.744 | best1=0.759 | time+text=0.773
+  fold3 seed2028: pick=time+text          sel=0.770 | all3=0.748 | best1=0.754 | time+text=0.770
+  fold4 seed2026: pick=time+text          sel=0.745 | all3=0.752 | best1=0.748 | time+text=0.745
+  fold4 seed2027: pick=time+text          sel=0.728 | all3=0.746 | best1=0.754 | time+text=0.728
+  fold4 seed2028: pick=time+text          sel=0.726 | all3=0.739 | best1=0.722 | time+text=0.726
+
+=== 各子集 test macroF1(全部 5x3 次,无丢弃) ===
+  time                 0.638±0.051
+  image                0.631±0.028
+  text                 0.723±0.028
+  time+image           0.656±0.029
+  time+text            0.723±0.034
+  image+text           0.707±0.035
+  time+image+text      0.713±0.036
+
+  >> SubsetSelect 0.725±0.035 | best-single 0.725±0.025 | all-3 0.713±0.036
+  >> 单调性: Subset−best1 = +0.000
+  >> 选中: {'time+text': 13, 'time+image+text': 1, 'image+text': 1}
+CV_DONE

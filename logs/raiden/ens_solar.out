@@ -1,0 +1,5 @@
+[ens solar] present=['time', 'image']
+  best-single(time) 0.798±0.008 | Ensemble 0.836±0.009
+  Δ_ens=+0.037 t9-95%CI[+0.027,+0.048] perm-p=0.002
+ENS_JSON {"ds": "solar", "best": "time", "best_f1": 0.798, "ens_f1": 0.836, "ens_sd": 0.009, "delta_ens": 0.037, "ci": 0.01, "perm_p": 0.002}
+ENS_DONE_solar

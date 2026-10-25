@@ -1,0 +1,4 @@
+[control hursat] best=image 训练2组不同init...
+  best-single 0.728 | same-modal-ens 0.736 | Δ_samemodal +0.007 (±0.009, p=0.108)
+CTRL_JSON {"ds": "hursat", "best": "image", "single": 0.728, "samemodal_ens": 0.736, "delta_samemodal": 0.007, "ci": 0.009, "perm_p": 0.108}
+CTRL_DONE_hursat

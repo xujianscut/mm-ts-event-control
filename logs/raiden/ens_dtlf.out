@@ -1,0 +1,5 @@
+[ens dtlf] present=['time', 'image']
+  best-single(time) 0.575±0.007 | Ensemble 0.607±0.012
+  Δ_ens=+0.032 t9-95%CI[+0.024,+0.040] perm-p=0.002
+ENS_JSON {"ds": "dtlf", "best": "time", "best_f1": 0.575, "ens_f1": 0.607, "ens_sd": 0.012, "delta_ens": 0.032, "ci": 0.008, "perm_p": 0.002}
+ENS_DONE_dtlf

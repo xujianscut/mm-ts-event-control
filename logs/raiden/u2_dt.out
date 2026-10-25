@@ -1,0 +1,14 @@
+[unified2 dt] present=['time', 'image'] testN=6787 grouped=True seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+UNI2_JSON {"ds": "dt", "present": ["time", "image"], "testN": 6787, "grouped": true, "best": "time", "best_f1": 0.812, "singles": {"time": 0.812, "image": 0.795}, "val_best": "time", "full_f1": 0.803, "dfull": [-0.008, 0.008, 0.034], "ens_f1": 0.839, "dens": [0.027, 0.006, 0.002], "ctrl_f1": 0.814, "dctrl": [0.002, 0.004, 0.143], "excess": 0.025, "excess_ci": 0.006, "excess_p": 0.002, "wf_f1": 0.838, "dwf": [0.026, 0.005, 0.002], "shaspec_f1": 0.799, "timecap_f1": null, "aux_drop": {"time": 0.142, "image": 0.223}, "oracle": 0.975, "all_wrong": 0.025, "boot_dens_ci": [0.01, 0.056], "boot_p": 0.0005}
+UNI2_DONE_dt
+U2_DONE_dt

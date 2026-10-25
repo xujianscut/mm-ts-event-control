@@ -1,0 +1,4 @@
+[audit2 hursat] present=['time', 'image'] nC=2 test=5119
+  best(image)=0.734 | Full=0.752 Δ=+0.019(±0.030,p=0.190) | Ens=0.758 Δ=+0.024(±0.013,p=0.002) | imgdrop=+0.219
+AUDIT2_JSON {"ds": "hursat", "present": ["time", "image"], "testN": 5119, "best": "image", "best_f1": 0.734, "best_sd": 0.027, "full_f1": 0.752, "delta_full": 0.019, "ci_full": 0.03, "p_full": 0.19, "ens_f1": 0.758, "delta_ens": 0.024, "ci_ens": 0.013, "p_ens": 0.002, "img_perm_drop": 0.219, "oracle": 0.973, "pos_rate": 0.033}
+A2_DONE_hursat

@@ -1,0 +1,13 @@
+[extra mimiceye] present=['time', 'image', 'text'] nC=2
+  seed2026: wfuse_grid=0.739 gate=0.710
+  seed2027: wfuse_grid=0.736 gate=0.724
+  seed2028: wfuse_grid=0.764 gate=0.675
+  seed2029: wfuse_grid=0.733 gate=0.723
+  seed2030: wfuse_grid=0.792 gate=0.757
+  seed2031: wfuse_grid=0.707 gate=0.721
+  seed2032: wfuse_grid=0.748 gate=0.719
+  seed2033: wfuse_grid=0.717 gate=0.721
+  seed2034: wfuse_grid=0.691 gate=0.671
+  seed2035: wfuse_grid=0.740 gate=0.693
+EXTRA_JSON {"ds": "mimiceye", "present": ["time", "image", "text"], "wfuse_grid_f1": 0.737, "gating_f1": 0.711}
+EXTRA_DONE_mimiceye

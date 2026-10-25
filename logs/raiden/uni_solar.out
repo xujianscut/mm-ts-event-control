@@ -1,0 +1,14 @@
+[unified solar] present=['time', 'image'] nC=2 testN=868 grouped=False seeds=10
+  seed2026: best=time single=0.804 full=0.831 ens=0.810 ctrl=0.799
+  seed2027: best=time single=0.808 full=0.804 ens=0.841 ctrl=0.803
+  seed2028: best=time single=0.802 full=0.825 ens=0.835 ctrl=0.802
+  seed2029: best=image single=0.821 full=0.820 ens=0.843 ctrl=0.813
+  seed2030: best=time single=0.787 full=0.830 ens=0.814 ctrl=0.799
+  seed2031: best=time single=0.795 full=0.828 ens=0.830 ctrl=0.799
+  seed2032: best=time single=0.806 full=0.840 ens=0.827 ctrl=0.801
+  seed2033: best=time single=0.788 full=0.820 ens=0.833 ctrl=0.799
+  seed2034: best=image single=0.807 full=0.824 ens=0.834 ctrl=0.772
+  seed2035: best=time single=0.801 full=0.819 ens=0.836 ctrl=0.804
+UNI_JSON {"ds": "solar", "present": ["time", "image"], "testN": 868, "grouped": false, "nGroups": null, "best": "time", "best_f1": 0.798, "singles": {"time": 0.798, "image": 0.805}, "full_f1": 0.824, "dfull": [0.026, 0.009, 0.005], "ens_f1": 0.83, "dens": [0.032, 0.01, 0.002], "ctrl_f1": 0.799, "dctrl": [0.001, 0.011, 0.853], "wf_f1": 0.829, "dwf": [0.03, 0.005, 0.002], "shaspec_f1": 0.818, "timecap_f1": null, "aux_drop": {"time": 0.072, "image": 0.237}, "oracle": 0.902, "all_wrong": 0.098, "boot_dens_ci": [0.007, 0.044], "boot_p": 0.003, "net_compl": 0.031, "pos_rate": 0.426}
+UNI_DONE_solar
+UNI_ALLDONE_solar

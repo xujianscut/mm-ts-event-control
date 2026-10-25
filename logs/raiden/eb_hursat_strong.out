@@ -1,0 +1,3 @@
+[exboot hursat enc=strong] testN=5119 grouped=True
+EXBOOT_JSON {"ds": "hursat", "enc": "strong", "best": "image", "grouped": true, "excess_point": 0.026, "excess_boot_ci": [0.008, 0.047], "excess_boot_p": 0.002}
+EXBOOT_DONE_hursat_strong

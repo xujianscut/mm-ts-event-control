@@ -1,0 +1,19 @@
+候选样本: 50460  序列数: 1075  正例率: 0.0241
+按序列划分: {'train': 35211, 'val': 7938, 'test': 7311}
+  时序 20000/50460 (22s)
+  时序 40000/50460 (42s)
+开始读图像...
+图像完成 (50460, 1, 96, 96) (183s)
+saved /home/jianxu/v2_cache/dt_et.npz  N=50460  正例=1217 (0.024)  用时 205s
+saved dtlf.npz N= 50460 pos= 0.024118113357114546
+######## SubsetSelect: dt_landfall ########
+[SubsetSelect dtlf] N=50460 候选子集=7
+  seed2026: pick=time+image         sel_test=0.640 | all3=0.624 | best_single=0.570
+  seed2027: pick=time+image+text    sel_test=0.615 | all3=0.615 | best_single=0.572
+  seed2028: pick=time+image         sel_test=0.643 | all3=0.609 | best_single=0.588
+  seed2029: pick=time+image         sel_test=0.627 | all3=0.608 | best_single=0.564
+  seed2030: pick=time+image         sel_test=0.595 | all3=0.625 | best_single=0.571
+  >> SubsetSelect 0.624±0.017 | all-3(强制全模态) 0.616±0.007 | best-single 0.573±0.008
+  >> 单调性: Subset-best_single=+0.051 | all3-best_single=+0.043
+  >> 选中: {'time+image': 4, 'time+image+text': 1}
+LF_DONE

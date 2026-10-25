@@ -1,0 +1,14 @@
+[crossattn solar] present=['time', 'image'] testN=868 seeds=10
+  seed2026: full=0.832 crossattn=0.822 ens=0.827
+  seed2027: full=0.807 crossattn=0.820 ens=0.836
+  seed2028: full=0.830 crossattn=0.807 ens=0.839
+  seed2029: full=0.840 crossattn=0.811 ens=0.837
+  seed2030: full=0.837 crossattn=0.824 ens=0.835
+  seed2031: full=0.829 crossattn=0.831 ens=0.821
+  seed2032: full=0.833 crossattn=0.807 ens=0.799
+  seed2033: full=0.821 crossattn=0.829 ens=0.827
+  seed2034: full=0.824 crossattn=0.817 ens=0.826
+  seed2035: full=0.800 crossattn=0.827 ens=0.819
+CROSSATTN_JSON {"ds": "solar", "best": "time", "best_f1": 0.798, "full_f1": 0.825, "dfull": [0.027, 0.013, 0.009], "crossattn_f1": 0.819, "dcrossattn": [0.021, 0.01, 0.002], "ens_f1": 0.827, "dens": [0.028, 0.012, 0.004]}
+CROSSATTN_DONE_solar
+CA_ALLDONE_solar

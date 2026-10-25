@@ -1,0 +1,34 @@
+######## medical (anchor=image) ########
+[medical] n=7244 nC=2 test=313 dist=[3207, 4037] anchor=image
+  seed2026: fused mF1=0.718 acc=0.719 auc=0.777 | time=0.459 image=0.751 text=0.564
+  seed2027: fused mF1=0.740 acc=0.741 auc=0.813 | time=0.502 image=0.736 text=0.555
+  seed2028: fused mF1=0.743 acc=0.744 auc=0.800 | time=0.479 image=0.753 text=0.562
+  >> FUSED macroF1 0.734±0.011 | best-single 0.747±0.007
+######## weather_aligned_v1 (anchor=image) ########
+  load 5000/7413 (30s)
+  cached /root/autodl-tmp/PythonProject_v2/cache/weather_aligned_v1.npz (66s)
+[weather_aligned_v1] n=7413 nC=2 test=1314 dist=[6438, 975] anchor=image
+  seed2026: fused mF1=0.654 acc=0.807 auc=0.832 | time=0.577 image=0.561 text=0.601
+  seed2027: fused mF1=0.669 acc=0.827 auc=0.852 | time=0.542 image=0.617 text=0.660
+  seed2028: fused mF1=0.633 acc=0.764 auc=0.851 | time=0.577 image=0.380 text=0.637
+  >> FUSED macroF1 0.652±0.015 | best-single 0.632±0.024
+######## weather2 (anchor=image) ########
+  cached /root/autodl-tmp/PythonProject_v2/cache/weather2.npz (28s)
+[weather2] n=2351 nC=4 test=354 dist=[119, 163, 504, 1565] anchor=image
+  seed2026: fused mF1=0.359 acc=0.480 auc=0.761 | time=0.308 image=0.457 text=0.282
+  seed2027: fused mF1=0.487 acc=0.565 auc=0.825 | time=0.299 image=0.477 text=0.309
+  seed2028: fused mF1=0.442 acc=0.542 auc=0.800 | time=0.248 image=0.463 text=0.274
+  >> FUSED macroF1 0.429±0.053 | best-single 0.466±0.008
+######## traffic (anchor=text) ########
+  load 5000/25874 (47s)
+  load 10000/25874 (91s)
+  load 15000/25874 (137s)
+  load 20000/25874 (182s)
+  load 25000/25874 (227s)
+  cached /root/autodl-tmp/PythonProject_v2/cache/traffic.npz (251s)
+[traffic] n=25874 nC=2 test=3881 dist=[12813, 13061] anchor=text
+  seed2026: fused mF1=0.616 acc=0.622 auc=0.644 | time=0.628 image=0.584 text=0.616
+  seed2027: fused mF1=0.618 acc=0.623 auc=0.645 | time=0.631 image=0.643 text=0.617
+  seed2028: fused mF1=0.615 acc=0.620 auc=0.644 | time=0.628 image=0.640 text=0.614
+  >> FUSED macroF1 0.616±0.001 | best-single 0.637±0.006
+ALL_DONE

@@ -1,0 +1,13 @@
+[extra hursat] present=['time', 'image'] nC=2
+  seed2026: wfuse_grid=0.747 gate=0.753
+  seed2027: wfuse_grid=0.733 gate=0.755
+  seed2028: wfuse_grid=0.757 gate=0.740
+  seed2029: wfuse_grid=0.782 gate=0.794
+  seed2030: wfuse_grid=0.749 gate=0.773
+  seed2031: wfuse_grid=0.726 gate=0.767
+  seed2032: wfuse_grid=0.763 gate=0.771
+  seed2033: wfuse_grid=0.750 gate=0.773
+  seed2034: wfuse_grid=0.740 gate=0.748
+  seed2035: wfuse_grid=0.795 gate=0.770
+EXTRA_JSON {"ds": "hursat", "present": ["time", "image"], "wfuse_grid_f1": 0.754, "gating_f1": 0.764}
+EXTRA_DONE_hursat

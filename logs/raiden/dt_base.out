@@ -1,0 +1,13 @@
+######## ShaSpec on DT ########
+[ShaSpec dt] n=46469 nC=2 test=6787
+  seed2026: macroF1=0.798 acc=0.934 auc=0.953
+  seed2027: macroF1=0.796 acc=0.934 auc=0.955
+  seed2028: macroF1=0.797 acc=0.939 auc=0.955
+  >> ShaSpec macroF1 0.797±0.001
+######## TS+Text(TimeCAP-equiv) on DT ########
+[TS+Text(TimeCAP-equiv) dt] nC=2
+  seed2026: macroF1=0.797 acc=0.928 auc=0.968
+  seed2027: macroF1=0.805 acc=0.934 auc=0.969
+  seed2028: macroF1=0.814 acc=0.938 auc=0.970
+  >> TS+Text macroF1 0.805±0.007
+DT_BASE_DONE

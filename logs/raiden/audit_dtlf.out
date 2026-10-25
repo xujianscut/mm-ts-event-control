@@ -1,0 +1,6 @@
+[audit dtlf] N=50460 present=['time', 'image'] lattice=3 nC=2 seeds=10
+  best-single(time) 0.575±0.007 | FullConcat 0.617±0.012
+  Δ_full=+0.043  t9-95%CI[+0.033,+0.052]  perm-p=0.002  boot95[+0.025,+0.057]
+  Ensemble=0.552  Δ(Full-Ens)=+0.059  | oracle=0.987 all-wrong=0.013 | image-perm drop=+0.031
+AUDIT_JSON {"ds": "dtlf", "present": ["time", "image"], "best": "time", "best_f1": 0.575, "best_sd": 0.007, "full_f1": 0.617, "full_sd": 0.012, "delta": 0.043, "ci": 0.009, "perm_p": 0.002, "boot95": [0.025, 0.057], "ensemble_f1": 0.552, "delta_vs_ens": 0.059, "oracle": 0.987, "all_wrong": 0.013, "img_perm_drop": 0.031, "pos_rate": 0.024}
+AUDIT_DONE_dtlf

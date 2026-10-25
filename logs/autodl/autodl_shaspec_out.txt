@@ -1,0 +1,26 @@
+=== TSText done, running ShaSpec re-impl ===
+######## ShaSpec medical ########
+[ShaSpec medical] n=7244 nC=2 test=313
+  seed2026: macroF1=0.705 acc=0.712 auc=0.786
+  seed2027: macroF1=0.709 acc=0.712 auc=0.759
+  seed2028: macroF1=0.699 acc=0.709 auc=0.800
+  >> ShaSpec macroF1 0.704±0.004
+######## ShaSpec weather_aligned_v1 ########
+[ShaSpec weather_aligned_v1] n=7413 nC=2 test=1314
+  seed2026: macroF1=0.665 acc=0.826 auc=0.856
+  seed2027: macroF1=0.638 acc=0.791 auc=0.833
+  seed2028: macroF1=0.677 acc=0.844 auc=0.856
+  >> ShaSpec macroF1 0.660±0.016
+######## ShaSpec weather2 ########
+[ShaSpec weather2] n=2351 nC=4 test=354
+  seed2026: macroF1=0.476 acc=0.579 auc=0.789
+  seed2027: macroF1=0.471 acc=0.559 auc=0.811
+  seed2028: macroF1=0.421 acc=0.534 auc=0.788
+  >> ShaSpec macroF1 0.456±0.025
+######## ShaSpec traffic ########
+[ShaSpec traffic] n=25874 nC=2 test=3881
+  seed2026: macroF1=0.606 acc=0.606 auc=0.664
+  seed2027: macroF1=0.615 acc=0.625 auc=0.663
+  seed2028: macroF1=0.621 acc=0.624 auc=0.654
+  >> ShaSpec macroF1 0.614±0.006
+SHASPEC_ALL_DONE

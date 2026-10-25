@@ -1,0 +1,14 @@
+[unified2 dtlf] present=['time', 'image'] testN=7311 grouped=True seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+UNI2_JSON {"ds": "dtlf", "present": ["time", "image"], "testN": 7311, "grouped": true, "best": "time", "best_f1": 0.572, "singles": {"time": 0.572, "image": 0.52}, "val_best": "time", "full_f1": 0.609, "dfull": [0.037, 0.011, 0.002], "ens_f1": 0.587, "dens": [0.015, 0.01, 0.014], "ctrl_f1": 0.576, "dctrl": [0.004, 0.005, 0.068], "excess": 0.011, "excess_ci": 0.008, "excess_p": 0.016, "wf_f1": 0.607, "dwf": [0.035, 0.009, 0.002], "shaspec_f1": 0.602, "timecap_f1": null, "aux_drop": {"time": 0.112, "image": 0.026}, "oracle": 0.99, "all_wrong": 0.01, "boot_dens_ci": [-0.045, 0.081], "boot_p": 0.2985}
+UNI2_DONE_dtlf
+U2_DONE_dtlf

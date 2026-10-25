@@ -1,0 +1,14 @@
+[strong dt] STRONG enc testN=6787 grouped=True seeds=10
+  seed2026: best=time single=0.805 full=0.814 ens=0.846 ctrl=0.808
+  seed2027: best=time single=0.824 full=0.816 ens=0.839 ctrl=0.824
+  seed2028: best=time single=0.817 full=0.815 ens=0.822 ctrl=0.816
+  seed2029: best=time single=0.799 full=0.817 ens=0.842 ctrl=0.814
+  seed2030: best=time single=0.819 full=0.804 ens=0.835 ctrl=0.823
+  seed2031: best=time single=0.813 full=0.797 ens=0.830 ctrl=0.817
+  seed2032: best=time single=0.805 full=0.786 ens=0.836 ctrl=0.810
+  seed2033: best=time single=0.807 full=0.807 ens=0.847 ctrl=0.819
+  seed2034: best=time single=0.795 full=0.801 ens=0.820 ctrl=0.818
+  seed2035: best=time single=0.825 full=0.785 ens=0.845 ctrl=0.823
+STRONG_JSON {"ds": "dt", "enc": "STRONG", "best": "time", "best_f1": 0.811, "full_f1": 0.804, "dfull": [-0.007, 0.012, 0.254], "ens_f1": 0.836, "dens": [0.025, 0.009, 0.002], "ctrl_f1": 0.817, "dctrl": [0.007, 0.006, 0.018], "net_compl": 0.018, "boot_dens_ci": [0.001, 0.049], "boot_p": 0.023, "grouped": true}
+STRONG_DONE_dt
+STRONG_ALLDONE_dt

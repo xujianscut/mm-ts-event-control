@@ -1,0 +1,14 @@
+[crossattn hursat] present=['time', 'image'] testN=5119 seeds=10
+  seed2026: full=0.746 crossattn=0.736 ens=0.731
+  seed2027: full=0.757 crossattn=0.727 ens=0.783
+  seed2028: full=0.742 crossattn=0.708 ens=0.750
+  seed2029: full=0.747 crossattn=0.764 ens=0.722
+  seed2030: full=0.750 crossattn=0.726 ens=0.744
+  seed2031: full=0.754 crossattn=0.788 ens=0.767
+  seed2032: full=0.771 crossattn=0.745 ens=0.773
+  seed2033: full=0.743 crossattn=0.744 ens=0.758
+  seed2034: full=0.725 crossattn=0.738 ens=0.743
+  seed2035: full=0.727 crossattn=0.761 ens=0.753
+CROSSATTN_JSON {"ds": "hursat", "best": "image", "best_f1": 0.721, "full_f1": 0.746, "dfull": [0.025, 0.016, 0.007], "crossattn_f1": 0.744, "dcrossattn": [0.022, 0.025, 0.079], "ens_f1": 0.752, "dens": [0.031, 0.009, 0.002]}
+CROSSATTN_DONE_hursat
+CA_ALLDONE_hursat

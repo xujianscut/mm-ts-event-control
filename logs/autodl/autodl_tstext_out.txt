@@ -1,0 +1,26 @@
+=== ShaSpec done, running TS+Text (TimeCAP-equiv) ===
+######## TSText medical ########
+[TS+Text(TimeCAP-equiv) medical] nC=2
+  seed2026: macroF1=0.602 acc=0.607 auc=0.613
+  seed2027: macroF1=0.604 acc=0.604 auc=0.630
+  seed2028: macroF1=0.607 acc=0.607 auc=0.622
+  >> TS+Text macroF1 0.604±0.002
+######## TSText weather_aligned_v1 ########
+[TS+Text(TimeCAP-equiv) weather_aligned_v1] nC=2
+  seed2026: macroF1=0.629 acc=0.756 auc=0.858
+  seed2027: macroF1=0.618 acc=0.755 auc=0.825
+  seed2028: macroF1=0.647 acc=0.814 auc=0.851
+  >> TS+Text macroF1 0.632±0.012
+######## TSText weather2 ########
+[TS+Text(TimeCAP-equiv) weather2] nC=4
+  seed2026: macroF1=0.365 acc=0.455 auc=0.677
+  seed2027: macroF1=0.400 acc=0.551 auc=0.785
+  seed2028: macroF1=0.431 acc=0.551 auc=0.782
+  >> TS+Text macroF1 0.399±0.027
+######## TSText traffic ########
+[TS+Text(TimeCAP-equiv) traffic] nC=2
+  seed2026: macroF1=0.605 acc=0.616 auc=0.653
+  seed2027: macroF1=0.589 acc=0.604 auc=0.650
+  seed2028: macroF1=0.596 acc=0.608 auc=0.649
+  >> TS+Text macroF1 0.596±0.006
+TSTEXT_ALL_DONE

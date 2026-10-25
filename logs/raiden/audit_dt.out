@@ -1,0 +1,6 @@
+[audit dt] N=46469 present=['time', 'image'] lattice=3 nC=2 seeds=10
+  best-single(time) 0.801±0.019 | FullConcat 0.804±0.011
+  Δ_full=+0.003  t9-95%CI[-0.014,+0.021]  perm-p=0.715  boot95[-0.015,+0.019]
+  Ensemble=0.856  Δ(Full-Ens)=-0.035  | oracle=0.976 all-wrong=0.024 | image-perm drop=+0.218
+AUDIT_JSON {"ds": "dt", "present": ["time", "image"], "best": "time", "best_f1": 0.801, "best_sd": 0.019, "full_f1": 0.804, "full_sd": 0.011, "delta": 0.003, "ci": 0.017, "perm_p": 0.715, "boot95": [-0.015, 0.019], "ensemble_f1": 0.856, "delta_vs_ens": -0.035, "oracle": 0.976, "all_wrong": 0.024, "img_perm_drop": 0.218, "pos_rate": 0.073}
+AUDIT_DONE_dt

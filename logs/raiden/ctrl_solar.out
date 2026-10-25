@@ -1,0 +1,4 @@
+[control solar] best=image 训练2组不同init...
+  best-single 0.799 | same-modal-ens 0.811 | Δ_samemodal +0.012 (±0.018, p=0.167)
+CTRL_JSON {"ds": "solar", "best": "image", "single": 0.799, "samemodal_ens": 0.811, "delta_samemodal": 0.012, "ci": 0.018, "perm_p": 0.167}
+CTRL_DONE_solar

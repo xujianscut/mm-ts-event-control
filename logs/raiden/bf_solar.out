@@ -1,0 +1,14 @@
+[boot_full solar] testN=868 groups=91 seeds=10
+  seed2026 done
+  seed2027 done
+  seed2028 done
+  seed2029 done
+  seed2030 done
+  seed2031 done
+  seed2032 done
+  seed2033 done
+  seed2034 done
+  seed2035 done
+BOOTFULL_JSON {"ds": "solar", "best": "time", "boot_dfull_ci": [0.002, 0.068], "boot_dfull_p": 0.017, "boot_dens_ci": [0.014, 0.071], "boot_dens_p": 0.002, "nGroups": 91}
+BOOTFULL_DONE_solar
+BF_ALLDONE_solar

@@ -1,0 +1,6 @@
+[unified solar] present=['time', 'image'] nC=2 testN=868 grouped=False seeds=2
+  seed2026: best=time single=0.804 full=0.827 ens=0.842 ctrl=0.799
+  seed2027: best=image single=0.827 full=0.804 ens=0.837 ctrl=0.826
+UNI_JSON {"ds": "solar", "present": ["time", "image"], "testN": 868, "grouped": false, "nGroups": null, "best": "time", "best_f1": 0.806, "singles": {"time": 0.806, "image": 0.818}, "full_f1": 0.816, "dfull": [0.01, 0.171, 1.0], "ens_f1": 0.84, "dens": [0.034, 0.054, 0.495], "ctrl_f1": 0.813, "dctrl": [0.007, 0.148, 1.0], "wf_f1": 0.84, "dwf": [0.034, 0.056, 0.495], "shaspec_f1": 0.83, "timecap_f1": null, "aux_drop": {"time": 0.087, "image": 0.223}, "oracle": 0.919, "all_wrong": 0.081, "boot_dens_ci": [0.003, 0.025], "boot_p": 0.009, "net_compl": 0.027, "pos_rate": 0.426}
+UNI_DONE_solar
+UNI_SMOKE_DONE
